@@ -1,9 +1,9 @@
 #!/bin/sh
 
-echo "mon usage:"
-echo "    mon l - laptop only"
-echo "    mon x - extended"
-echo "    mon c - cloned"
+echo "dm usage:"
+echo "    dm l - laptop only"
+echo "    dm x - extended"
+echo "    dm c - cloned"
 echo ""
 
 layout=$1

@@ -1,4 +1,4 @@
-mon
+dm
 ===
 
 Monitor mode selector.
@@ -6,10 +6,10 @@ Monitor mode selector.
 Usage
 -----
 
-    mon usage:
-        mon l - laptop only
-        mon x - extended
-        mon c - cloned
+    dm usage:
+        dm l - laptop only
+        dm x - extended
+        dm c - cloned
 
 Requirements
 ------------
