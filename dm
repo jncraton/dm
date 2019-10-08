@@ -1,12 +1,16 @@
 #!/bin/sh
 
-echo "display mode (dm) usage:"
-echo "    dm l - laptop only"
-echo "    dm x - extended"
-echo "    dm c - cloned"
-echo ""
-
 layout=$1
+
+if [ ! $layout ]
+then
+  echo "Display Mode (dm) usage:"
+  echo ""
+  echo "    dm l - laptop only"
+  echo "    dm x - extended"
+  echo "    dm c - cloned"
+  echo ""
+fi
 
 # Find display names for connected internal and external displays
 internal=$(xrandr -q | grep " connected" | sed -n 1p | cut -d " " -f1)
