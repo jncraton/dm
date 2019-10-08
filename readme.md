@@ -10,3 +10,9 @@ Usage
         mon l - laptop only
         mon x - extended
         mon c - cloned
+
+Requirements
+------------
+
+- x
+- xrandr
