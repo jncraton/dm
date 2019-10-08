@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "dm usage:"
+echo "display mode (dm) usage:"
 echo "    dm l - laptop only"
 echo "    dm x - extended"
 echo "    dm c - cloned"
